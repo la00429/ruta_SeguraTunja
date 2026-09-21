@@ -1,7 +1,7 @@
 {
   "name": "Ruta Segura Tunja",
   "short_name": "Ruta Segura",
-  "description": "Consulta lugares de interés en Tunja, incluso sin conexión Wii.",
+  "description": "Consulta lugares de interés en Tunja, incluso sin conexión.",
   "lang": "es",
   "dir": "ltr",
   "start_url": "./index.html",
@@ -12,26 +12,10 @@
   "categories": ["social", "communication"],
   "icons": [
     {
-      "src": "./icon.svg",
+      "src": "./img/icon.svg",
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any maskable"
-    }
-  ],
-  "screenshots": [
-    {
-      "src": "./screenshots/ruta-segura-movil.png",
-      "sizes": "540x720",
-      "type": "image/png",
-      "form_factor": "narrow",
-      "label": "Ruta Segura en un dispositivo movil"
-    },
-    {
-      "src": "./screenshots/ruta-segura-escritorio.png",
-      "sizes": "1280x720",
-      "type": "image/png",
-      "form_factor": "wide",
-      "label": "Ruta Segura en una pantalla ancha"
     }
   ],
   "shortcuts": [
@@ -42,7 +26,7 @@
       "url": "./index.html#chat",
       "icons": [
         {
-          "src": "./icon.svg",
+          "src": "./img/icon.svg",
           "sizes": "any",
           "type": "image/svg+xml"
         }
